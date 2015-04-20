@@ -1,0 +1,11 @@
+{
+  "name": "coffee-barebone",
+  "version": "1.0.0",
+  "description": "Barebone app",
+  "dependencies": {
+    "express": "4.12",
+    "jade": "1.0.0",
+    "connect-assets": "4.7.0",
+    "stylus": "0.50"
+  }
+}
