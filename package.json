@@ -2,10 +2,15 @@
   "name": "coffee-barebone",
   "version": "1.0.0",
   "description": "Barebone app",
+  "scripts": {
+    "start": "coffee index.coffee",
+    "config": "coffee -e \"console.log require('./config/vars')\""
+  },
   "dependencies": {
+    "coffee-script": "^1.10.0",
+    "connect-assets": "4.7.0",
     "express": "4.12",
     "jade": "1.0.0",
-    "connect-assets": "4.7.0",
     "stylus": "0.50"
   }
 }
